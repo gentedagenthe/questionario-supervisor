@@ -129,6 +129,8 @@ export default function AdminPanel() {
           <option value="">Todas as cidades</option>
           <option value="Cuiabá/MT">Cuiabá/MT</option>
           <option value="Belo Horizonte/MG">Belo Horizonte/MG</option>
+          <option value="São Paulo/SP">São Paulo/SP</option>
+          <option value="Manaus/AM">Manaus/AM</option>
         </select>
       </div>
 
