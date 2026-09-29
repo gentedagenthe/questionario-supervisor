@@ -400,7 +400,7 @@ export default function QuestionarioSupervisorRegional() {
         <Cabecalho />
         <div style={{ ...styles.card, maxWidth: '640px' }}>
           <div style={styles.titulo}>Supervisor Regional de Operações e Expansão Comercial</div>
-          <div style={styles.subtitulo}>Logística / Delivery · Cuiabá/MT e Belo Horizonte/MG</div>
+          <div style={styles.subtitulo}>Logística / Delivery · Cuiabá/MT, Belo Horizonte/MG, São Paulo/SP e Manaus/AM</div>
 
           <div style={styles.gridInfo}>
             <div style={styles.infoCard}>
@@ -526,7 +526,7 @@ export default function QuestionarioSupervisorRegional() {
               campo="vaga_cidade"
               valor={form.vaga_cidade}
               onChange={set}
-              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG']}
+              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG', 'São Paulo/SP', 'Manaus/AM']}
             />
           </>
         )}
@@ -680,7 +680,7 @@ export default function QuestionarioSupervisorRegional() {
               Esta vaga exige acompanhamento presencial das unidades atendidas no estado. Residir na capital selecionada facilita a logística de deslocamento e a proximidade com o suporte operacional.
             </div>
             <CampoRadio
-              label={`Você reside atualmente em ${form.vaga_cidade || 'Cuiabá/MT ou Belo Horizonte/MG'}`}
+              label={`Você reside atualmente em ${form.vaga_cidade || 'Cuiabá/MT, Belo Horizonte/MG, São Paulo/SP ou Manaus/AM'}`}
               campo="reside_na_capital"
               valor={form.reside_na_capital}
               onChange={set}
@@ -688,7 +688,7 @@ export default function QuestionarioSupervisorRegional() {
             />
             {form.reside_na_capital === 'Não' && (
               <CampoRadio
-                label="Você tem disponibilidade de mudança para Cuiabá/MT ou Belo Horizonte/MG"
+                label="Você tem disponibilidade de mudança para Cuiabá/MT, Belo Horizonte/MG, São Paulo/SP ou Manaus/AM"
                 campo="disponibilidade_mudanca"
                 valor={form.disponibilidade_mudanca}
                 onChange={set}
