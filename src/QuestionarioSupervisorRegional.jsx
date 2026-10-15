@@ -526,7 +526,7 @@ export default function QuestionarioSupervisorRegional() {
               campo="vaga_cidade"
               valor={form.vaga_cidade}
               onChange={set}
-              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG', 'São Paulo/SP', 'Manaus/AM']}
+              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG', 'São Paulo/SP', 'Manaus/AM', 'Campo Grande/MS']}
             />
           </>
         )}
