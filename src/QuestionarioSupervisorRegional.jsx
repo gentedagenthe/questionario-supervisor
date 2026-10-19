@@ -400,7 +400,7 @@ export default function QuestionarioSupervisorRegional() {
         <Cabecalho />
         <div style={{ ...styles.card, maxWidth: '640px' }}>
           <div style={styles.titulo}>Supervisor Regional de Operações e Expansão Comercial</div>
-          <div style={styles.subtitulo}>Logística / Delivery · Cuiabá/MT, Belo Horizonte/MG, São Paulo/SP, Manaus/AM e Campo Grande/MS</div>
+          <div style={styles.subtitulo}>Logística / Delivery · Cuiabá/MT, Belo Horizonte/MG, São Paulo/SP, Manaus/AM, Campo Grande/MS Itapetininga/SP</div>
 
           <div style={styles.gridInfo}>
             <div style={styles.infoCard}>
@@ -526,8 +526,8 @@ export default function QuestionarioSupervisorRegional() {
               campo="vaga_cidade"
               valor={form.vaga_cidade}
               onChange={set}
-              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG', 'São Paulo/SP', 'Manaus/AM', 'Campo Grande/MS']}
-            />
+              opcoes={['Cuiabá/MT', 'Belo Horizonte/MG', 'São Paulo/SP', 'Manaus/AM', 'Campo Grande/MS' 'Itapetininga/SP']}
+            /> 
           </>
         )}
 
